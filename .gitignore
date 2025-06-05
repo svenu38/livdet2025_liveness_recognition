@@ -1,0 +1,30 @@
+# Ignore all raw and processed fingerprint images
+data/raw/
+data/processed/
+
+# Ignore CSVs if they contain image paths
+data/csv/
+
+# Ignore model weights and checkpoints
+models/
+*.pt
+*.pth
+
+# Ignore outputs
+outputs/
+submission/*.exe
+submission/*.txt
+
+# Ignore Grad-CAM visualizations (optional for paper version)
+outputs/visualizations/
+paper_analysis/
+
+# Ignore environment
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
